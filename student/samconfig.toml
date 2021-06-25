@@ -1,0 +1,10 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "student"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-ix1665cav3pl"
+s3_prefix = "student"
+region = "us-east-2"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
